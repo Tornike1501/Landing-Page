@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1920;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;}
+    
+/* for Header *******************************************************************/
+header{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBlock{
+    width: 1480.5px;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu > a{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #4F9CF9;
+    margin-left: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu > a::after{
+    content: url("./assets/Arrow.png");
+    margin-left: 10px;
+}
+.forBtn{
+    margin-left: 134.5px;
+}
+.forBtn > .login{
+    width: 126px;
+    height: 60px;
+    background-color: #FFE492;
+    border: none;
+    border-radius: 8px;
+    color: #043873;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.forBtn > .tryFree{
+    width: 227px;
+    height: 60px;   
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 8px;
+    margin-left: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.forBtn > .tryFree::after{
+    content: url("./assets/Icon.png");
+    margin-left: 10px;
+}
+.logo > span{
+    color: #4F9CF9;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+/* ******************************************************************************************/
+/* section 1  *******************************************************************************/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section{
+    height: 829px;
+    font-family: 'Inter', sans-serif;
+
+}
+section >.firstContent{
+    width: 1480px;
+    height: 549px;
+}
+.textBlock{
+    width: 656px;
+    height: 238px;
+    margin-top: 140px;
+}
+.textBlock > h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #4F9CF9;
+}
+.textBlock > p{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4F9CF9;
+}
+.textBlock > button{
+    margin-top: 60px;
+    width: 219px;
+    height: 63px;
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.textBlock > button::after{
+    content: url("./assets/Icon.png");
+    margin-left: 10px;
+}
+.imageBlock{
+    width: 824px;
+    height: 549px;
+    background-color: #C4DEFD;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+/*********************************************************************************/
