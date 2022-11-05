@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1920;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;}
+.sect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > .sect1{
+    height: 829px;
+    font-family: 'Inter', sans-serif;
+}
+.sect1 >.firstContent1{
+    width: 1480px;
+    height: 547px;
+}
+.textBlock1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #212529;
+}
+.textBlock1 > .header1{
+    width: 672px;
+    height: 174px;
+    margin-top: 140px;
+    font-family: 'Inter', sans-serif;
+    font-style:  Bold;
+    font-size: 72px;
+    line-height: 87px;
+    line-height: 100%;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: -2%;
+    Fill: Solid;
+    color: #212529;
+}
+.textBlock1 > p{
+    width: 672px;
+    height: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+}
+.textBlock1 > button{
+    margin-top: 60px;
+    width: 219px;
+    height: 63px;
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.textBlock1 > button::after{
+    content: url("./images/Vector.png");
+    margin-left: 40px;
+}
+.imageBlock1{
+    content: url("./images/bluespace.png");
+    width: 748px;
+    height: 547px;
+    background: #C4DEFD;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    margin-left: 60px;
+}
+.block1{
+    display: flex;
+    flex-direction: row;
+}
+.bckr1{
+    background-image: url("./images/bcr.png");
+}
+.sect2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > .sect2{
+    height: 829px;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+}
+.sect2 >.firstContent2{
+    width: 1480px;
+    height: 661px;
+}
+.textBlock2{
+    font-weight: 700;
+    font-size: 64px;
+    color: #212529;
+    margin-left: 114px;
+    margin-top: 183.5px;
+}
+.textBlock2 > .header2{
+    width: 670px;
+    height: 87px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+.textBlock2 > p{
+    width: 670px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+    margin-top: 24px;
+}
+.textBlock2 > button{
+    margin-top: 60px;
+    width: 219px;
+    height: 63px;
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.textBlock2 > button::after{
+    content: url("./images/Vector.png");
+    margin-left: 40px;
+}
+.imageBlock2{
+    content: url("./images//Work\ Together\ Image.png");
+    width: 710px;
+    height: 661px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    grid-area: left;
+}
+.block2{
+    display: grid;
+    grid-template-columns: 670px 670px;
+    flex-direction: row;
+    grid-template-areas: "left right";
+    grid-template-rows: 294px 661px;
+}
+.bckr2{
+    background-image: url("./images/bcr.png");
+}
