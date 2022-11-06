@@ -1,0 +1,150 @@
+
+.container{
+    background-color: #043873;
+    height: 750.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container > img{
+    position:absolute;
+    width: 100%;
+    height: 700.4px;
+}
+.apps > img{
+    width: 582px;
+    height: 470.8px;
+}
+.apps {
+    display: flex;
+    align-items: center;
+}
+.textBox{
+    width: 798px;
+    height: 468px;
+    margin-left: 100px;
+}
+.textBox > h1{
+    font-weight: 700;
+    font-size: 72px;
+    color: white;
+}
+.textBox > p{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.textBox > button{
+    position: relative;
+    z-index: 2;
+    width: 194px;
+    height: 63px;
+    background-color: #4F9CF9;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.textBox > button::after{
+    content: url("./assets/Group\ 214.png");
+    margin-left: 10px;
+}
+.main{
+    height: 1042px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBox{
+    width: 1480px;
+    height: 627px;
+}
+.mainBox > img{
+    position: absolute;
+    left: 47%;
+    top: 114%;
+}
+.mainBox > h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+}
+.boxes{
+    width: 1480px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box2{
+    background-color: #4F9CF9;
+}
+#box3{
+    background-color: #4F9CF9;
+}
+#box2 > p, #box3 > p{
+    color:white;  
+}
+
+.box1{
+    width: 472px;
+    height: 480px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.box1 > img{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.box1 > p{
+    margin-top: 35px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #01252A;
+    width: 350px;
+    height: 150px;
+}
+.author{
+    width: 194px;
+    height: 56px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.author > h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #01252A;
+}
+.author > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #01252A;
+    margin-top: -20px;
+}
+.review{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.stars{
+    width: 103px;
+    height: 15px;
+    margin-left: 53px;
+    margin-top: 25px;
+}
+#authors > h3, #authors > p{
+    color: white;
+}
+#authorss > h3, #authorss > p{
+    color: white;
+}
